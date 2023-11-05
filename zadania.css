@@ -122,6 +122,16 @@ footer {
     background: #292a2b;
     z-index: 2;
 }
+@media (max-width: 1000px){
+    footer {
+        position:fixed;
+        bottom: 0px;
+        width: 100%;
+        background: #292a2b;
+        float:inline-end;
+        margin-top: 1%;
+    }
+}
 .stopka {
     width:100%;
     padding: 5px 5px 5px;
