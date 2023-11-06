@@ -19,7 +19,7 @@ body{
     font-family: Montserrat;
     background-size: cover;
     height: calc(100vh - 80px);
-    background: linear-gradient(45deg, #08001f, #30197d);
+    background: linear-gradient(45deg, #fc282c, #fcbc28);
 }
 /* Tło paska menu */
 nav{
