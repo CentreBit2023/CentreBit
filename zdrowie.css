@@ -117,7 +117,7 @@ a.active,a:hover{
 
 /* Stopka */
 footer {
-    position:absolute;
+    position:static;
     bottom: 0px;
     width: 100%;
     background: #292a2b;
