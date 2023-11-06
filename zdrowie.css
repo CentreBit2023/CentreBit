@@ -18,7 +18,7 @@ src:url(Montserrat-Regular.ttf);
 body{
     font-family: Montserrat;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(120vh - 80px);
     background: linear-gradient(45deg, #fc282c, #fcbc28);
 }
 /* Tło paska menu */
@@ -70,24 +70,24 @@ a.active,a:hover{
 #check{
     display: none;
 }
-@media (max-width: 952px){
+@media (max-width: 1200px){
     label.logo{
-        font-size: 30px;
-        padding-left: 50px;
+        font-size: 25px;
+        padding-left: 40px;
     }
     nav ul li a{
         font-size:16px;
     }
 }
-@media (max-width: 858px){
+@media (max-width: 1000px){
     .checkbtn{
         display: block;
     }
     /* Definicja koloru tła po rozwinięciu menu */
     ul{
-        position: fixed;
+        position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         background: #47515c;
         top: 80px;
         left: -100%;
@@ -101,6 +101,7 @@ a.active,a:hover{
     }
     nav ul li a{
         font-size: 20px;
+        text-shadow: rgba(0, 0, 0, 0.514) 1px 1px 1px;
     }
     a:hover,a.active{
         background: none;
@@ -116,14 +117,13 @@ a.active,a:hover{
 
 /* Stopka */
 footer {
-    position:static;
+    position:absolute;
     bottom: 0px;
     width: 100%;
     background: #292a2b;
-    float:inline-end;
-    margin-top: 1%;
+    z-index: 2;
 }
-@media (max-width: 952px){
+@media (max-width: 1000px){
     footer {
         position:fixed;
         bottom: 0px;
@@ -180,7 +180,7 @@ footer {
 }
 /* KONIEC ATRYBUTÓW DOT. STOPKI */
 
-/*dodaje se do css ~B.S */
+/*dodaje se do css */
 .menu_zdrowie {
     background-color: #ab8efa;
     text-align: center;
