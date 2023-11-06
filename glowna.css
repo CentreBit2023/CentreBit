@@ -334,7 +334,7 @@ height: 10%;
 border-top: 3px solid #a7c9ff;
 border-bottom: 3px solid #a7c9ff;
 margin: 1em auto;
-margin-top: 300px;
+margin-top: 400px;
 }
 
 @media (max-width: 1000px){
@@ -346,4 +346,17 @@ margin-top: 300px;
         font-size: 23px;
         font-weight: bold;
     }
+	.PDF #inne{
+	background: rgba(255, 255, 255, 0.534);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
+	border-radius: 10px;
+	display: block;
+	position: relative;
+	width: 50%;
+	height: 10%;
+	border-top: 3px solid #a7c9ff;
+	border-bottom: 3px solid #a7c9ff;
+	margin: 1em auto;
+	margin-top: 300px;
+	}
 }
