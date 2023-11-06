@@ -94,6 +94,7 @@ a.active,a:hover{
         left: -100%;
         text-align:center;
         transition: all .5s;
+	z-index: 2;
     }
     nav ul li{
         display: block; 
@@ -334,7 +335,6 @@ border-top: 3px solid #a7c9ff;
 border-bottom: 3px solid #a7c9ff;
 margin: 1em auto;
 margin-top: 400px;
-z-index: -1;
 }
 
 @media (max-width: 1000px){
