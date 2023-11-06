@@ -122,6 +122,8 @@ footer {
     width: 100%;
     background: #292a2b;
     z-index: 2;
+    float: inline-end;
+    margin-top: 1%;
 }
 @media (max-width: 1000px){
     footer {
